@@ -1,0 +1,84 @@
+@media (max-width: 1200px) {
+  /* For a screen < 1200px, this CSS will be read */
+  .container {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  color: #313030;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  font-family: 'Lora', serif;
+  margin: 0px;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 700;
+}
+
+h2 {
+  color: #a6a6a6;
+  font-weight: 400;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #4352A1;
+}
+
+a:hover {
+  background:rgb(162, 222, 183);
+}
+
+.link {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #313030;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: italic;
+}
